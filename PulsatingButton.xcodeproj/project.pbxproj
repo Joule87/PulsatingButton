@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40E5A06241EA05300488BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A05241EA05300488BF8 /* AppDelegate.swift */; };
+		F40E5A08241EA05300488BF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A07241EA05300488BF8 /* SceneDelegate.swift */; };
+		F40E5A0A241EA05300488BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A09241EA05300488BF8 /* ViewController.swift */; };
+		F40E5A0D241EA05300488BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E5A0B241EA05300488BF8 /* Main.storyboard */; };
+		F40E5A0F241EA05400488BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40E5A0E241EA05400488BF8 /* Assets.xcassets */; };
+		F40E5A12241EA05400488BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E5A10241EA05400488BF8 /* LaunchScreen.storyboard */; };
+		F40E5A1D241EA05400488BF8 /* PulsatingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A1C241EA05400488BF8 /* PulsatingButtonTests.swift */; };
+		F40E5A28241EA05400488BF8 /* PulsatingButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A27241EA05400488BF8 /* PulsatingButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40E5A19241EA05400488BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40E59FA241EA05300488BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40E5A01241EA05300488BF8;
+			remoteInfo = PulsatingButton;
+		};
+		F40E5A24241EA05400488BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40E59FA241EA05300488BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40E5A01241EA05300488BF8;
+			remoteInfo = PulsatingButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40E5A02241EA05300488BF8 /* PulsatingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsatingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5A05241EA05300488BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40E5A07241EA05300488BF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F40E5A09241EA05300488BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40E5A0C241EA05300488BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40E5A0E241EA05400488BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40E5A11241EA05400488BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40E5A13241EA05400488BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E5A18241EA05400488BF8 /* PulsatingButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsatingButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5A1C241EA05400488BF8 /* PulsatingButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingButtonTests.swift; sourceTree = "<group>"; };
+		F40E5A1E241EA05400488BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E5A23241EA05400488BF8 /* PulsatingButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PulsatingButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E5A27241EA05400488BF8 /* PulsatingButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingButtonUITests.swift; sourceTree = "<group>"; };
+		F40E5A29241EA05400488BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40E59FF241EA05300488BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A15241EA05400488BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A20241EA05400488BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40E59F9241EA05300488BF8 = {
+			isa = PBXGroup;
+			children = (
+				F40E5A04241EA05300488BF8 /* PulsatingButton */,
+				F40E5A1B241EA05400488BF8 /* PulsatingButtonTests */,
+				F40E5A26241EA05400488BF8 /* PulsatingButtonUITests */,
+				F40E5A03241EA05300488BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40E5A03241EA05300488BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5A02241EA05300488BF8 /* PulsatingButton.app */,
+				F40E5A18241EA05400488BF8 /* PulsatingButtonTests.xctest */,
+				F40E5A23241EA05400488BF8 /* PulsatingButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40E5A04241EA05300488BF8 /* PulsatingButton */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5A05241EA05300488BF8 /* AppDelegate.swift */,
+				F40E5A07241EA05300488BF8 /* SceneDelegate.swift */,
+				F40E5A09241EA05300488BF8 /* ViewController.swift */,
+				F40E5A0B241EA05300488BF8 /* Main.storyboard */,
+				F40E5A0E241EA05400488BF8 /* Assets.xcassets */,
+				F40E5A10241EA05400488BF8 /* LaunchScreen.storyboard */,
+				F40E5A13241EA05400488BF8 /* Info.plist */,
+			);
+			path = PulsatingButton;
+			sourceTree = "<group>";
+		};
+		F40E5A1B241EA05400488BF8 /* PulsatingButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5A1C241EA05400488BF8 /* PulsatingButtonTests.swift */,
+				F40E5A1E241EA05400488BF8 /* Info.plist */,
+			);
+			path = PulsatingButtonTests;
+			sourceTree = "<group>";
+		};
+		F40E5A26241EA05400488BF8 /* PulsatingButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40E5A27241EA05400488BF8 /* PulsatingButtonUITests.swift */,
+				F40E5A29241EA05400488BF8 /* Info.plist */,
+			);
+			path = PulsatingButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40E5A01241EA05300488BF8 /* PulsatingButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5A2C241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButton" */;
+			buildPhases = (
+				F40E59FE241EA05300488BF8 /* Sources */,
+				F40E59FF241EA05300488BF8 /* Frameworks */,
+				F40E5A00241EA05300488BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulsatingButton;
+			productName = PulsatingButton;
+			productReference = F40E5A02241EA05300488BF8 /* PulsatingButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40E5A17241EA05400488BF8 /* PulsatingButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5A2F241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButtonTests" */;
+			buildPhases = (
+				F40E5A14241EA05400488BF8 /* Sources */,
+				F40E5A15241EA05400488BF8 /* Frameworks */,
+				F40E5A16241EA05400488BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40E5A1A241EA05400488BF8 /* PBXTargetDependency */,
+			);
+			name = PulsatingButtonTests;
+			productName = PulsatingButtonTests;
+			productReference = F40E5A18241EA05400488BF8 /* PulsatingButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40E5A22241EA05400488BF8 /* PulsatingButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E5A32241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButtonUITests" */;
+			buildPhases = (
+				F40E5A1F241EA05400488BF8 /* Sources */,
+				F40E5A20241EA05400488BF8 /* Frameworks */,
+				F40E5A21241EA05400488BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40E5A25241EA05400488BF8 /* PBXTargetDependency */,
+			);
+			name = PulsatingButtonUITests;
+			productName = PulsatingButtonUITests;
+			productReference = F40E5A23241EA05400488BF8 /* PulsatingButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40E59FA241EA05300488BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Altimetrik;
+				TargetAttributes = {
+					F40E5A01241EA05300488BF8 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F40E5A17241EA05400488BF8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F40E5A01241EA05300488BF8;
+					};
+					F40E5A22241EA05400488BF8 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F40E5A01241EA05300488BF8;
+					};
+				};
+			};
+			buildConfigurationList = F40E59FD241EA05300488BF8 /* Build configuration list for PBXProject "PulsatingButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40E59F9241EA05300488BF8;
+			productRefGroup = F40E5A03241EA05300488BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40E5A01241EA05300488BF8 /* PulsatingButton */,
+				F40E5A17241EA05400488BF8 /* PulsatingButtonTests */,
+				F40E5A22241EA05400488BF8 /* PulsatingButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40E5A00241EA05300488BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5A12241EA05400488BF8 /* LaunchScreen.storyboard in Resources */,
+				F40E5A0F241EA05400488BF8 /* Assets.xcassets in Resources */,
+				F40E5A0D241EA05300488BF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A16241EA05400488BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A21241EA05400488BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40E59FE241EA05300488BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5A0A241EA05300488BF8 /* ViewController.swift in Sources */,
+				F40E5A06241EA05300488BF8 /* AppDelegate.swift in Sources */,
+				F40E5A08241EA05300488BF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A14241EA05400488BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5A1D241EA05400488BF8 /* PulsatingButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40E5A1F241EA05400488BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E5A28241EA05400488BF8 /* PulsatingButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40E5A1A241EA05400488BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40E5A01241EA05300488BF8 /* PulsatingButton */;
+			targetProxy = F40E5A19241EA05400488BF8 /* PBXContainerItemProxy */;
+		};
+		F40E5A25241EA05400488BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40E5A01241EA05300488BF8 /* PulsatingButton */;
+			targetProxy = F40E5A24241EA05400488BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F40E5A0B241EA05300488BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E5A0C241EA05300488BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40E5A10241EA05400488BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E5A11241EA05400488BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40E5A2A241EA05400488BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40E5A2B241EA05400488BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40E5A2D241EA05400488BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40E5A2E241EA05400488BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F40E5A30241EA05400488BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsatingButton.app/PulsatingButton";
+			};
+			name = Debug;
+		};
+		F40E5A31241EA05400488BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButtonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsatingButton.app/PulsatingButton";
+			};
+			name = Release;
+		};
+		F40E5A33241EA05400488BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulsatingButton;
+			};
+			name = Debug;
+		};
+		F40E5A34241EA05400488BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SN83FZJ9R5;
+				INFOPLIST_FILE = PulsatingButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altimetrik.PulsatingButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PulsatingButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40E59FD241EA05300488BF8 /* Build configuration list for PBXProject "PulsatingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5A2A241EA05400488BF8 /* Debug */,
+				F40E5A2B241EA05400488BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5A2C241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5A2D241EA05400488BF8 /* Debug */,
+				F40E5A2E241EA05400488BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5A2F241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5A30241EA05400488BF8 /* Debug */,
+				F40E5A31241EA05400488BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E5A32241EA05400488BF8 /* Build configuration list for PBXNativeTarget "PulsatingButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E5A33241EA05400488BF8 /* Debug */,
+				F40E5A34241EA05400488BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40E59FA241EA05300488BF8 /* Project object */;
+}
