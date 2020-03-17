@@ -17,27 +17,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nuke" translatesAutoresizingMaskIntoConstraints="NO" id="EWz-pK-YOG">
-                                <rect key="frame" x="157" y="390" width="100" height="100"/>
+                                <rect key="frame" x="157" y="302" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="3ZW-po-cqQ"/>
                                     <constraint firstAttribute="height" constant="100" id="XsC-Se-k2l"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shield" translatesAutoresizingMaskIntoConstraints="NO" id="yIK-Ul-EVN">
+                                <rect key="frame" x="144.5" y="502" width="125" height="125"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youtubeButton" translatesAutoresizingMaskIntoConstraints="NO" id="3Ux-G8-JPQ">
-                                <rect key="frame" x="172.5" y="144" width="69" height="69"/>
+                                <rect key="frame" x="172.5" y="133" width="69" height="69"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="yIK-Ul-EVN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1QW-2S-m5b"/>
                             <constraint firstItem="EWz-pK-YOG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Qs-ro-IFx"/>
-                            <constraint firstItem="EWz-pK-YOG" firstAttribute="top" secondItem="3Ux-G8-JPQ" secondAttribute="bottom" constant="177" id="szG-gT-h05"/>
-                            <constraint firstItem="3Ux-G8-JPQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="xLp-ue-nqZ"/>
+                            <constraint firstItem="EWz-pK-YOG" firstAttribute="top" secondItem="3Ux-G8-JPQ" secondAttribute="bottom" constant="100" id="PWK-AD-Lvr"/>
+                            <constraint firstItem="3Ux-G8-JPQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="lOs-Pd-JUr"/>
+                            <constraint firstItem="yIK-Ul-EVN" firstAttribute="top" secondItem="EWz-pK-YOG" secondAttribute="bottom" constant="100" id="wz6-su-fFK"/>
                             <constraint firstItem="3Ux-G8-JPQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ySE-Gy-Lnw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="nukeButton" destination="EWz-pK-YOG" id="AlP-m6-uPq"/>
+                        <outlet property="shieldButton" destination="yIK-Ul-EVN" id="XRb-8C-zcO"/>
                         <outlet property="youtubeImage" destination="3Ux-G8-JPQ" id="zrc-PL-IiB"/>
                     </connections>
                 </viewController>
@@ -48,6 +54,7 @@
     </scenes>
     <resources>
         <image name="Nuke" width="230" height="230"/>
+        <image name="shield" width="125" height="125"/>
         <image name="youtubeButton" width="69.5" height="69.5"/>
     </resources>
 </document>

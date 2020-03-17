@@ -16,6 +16,7 @@
 		F40E5A1D241EA05400488BF8 /* PulsatingButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A1C241EA05400488BF8 /* PulsatingButtonTests.swift */; };
 		F40E5A28241EA05400488BF8 /* PulsatingButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A27241EA05400488BF8 /* PulsatingButtonUITests.swift */; };
 		F40E5A36241EA44700488BF8 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E5A35241EA44700488BF8 /* Pulsing.swift */; };
+		F4D79E7024217AC800DA8F11 /* BurblePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D79E6F24217AC800DA8F11 /* BurblePulse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F40E5A27241EA05400488BF8 /* PulsatingButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingButtonUITests.swift; sourceTree = "<group>"; };
 		F40E5A29241EA05400488BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40E5A35241EA44700488BF8 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		F4D79E6F24217AC800DA8F11 /* BurblePulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurblePulse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F40E5A10241EA05400488BF8 /* LaunchScreen.storyboard */,
 				F40E5A13241EA05400488BF8 /* Info.plist */,
 				F40E5A35241EA44700488BF8 /* Pulsing.swift */,
+				F4D79E6F24217AC800DA8F11 /* BurblePulse.swift */,
 			);
 			path = PulsatingButton;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				F40E5A0A241EA05300488BF8 /* ViewController.swift in Sources */,
 				F40E5A06241EA05300488BF8 /* AppDelegate.swift in Sources */,
+				F4D79E7024217AC800DA8F11 /* BurblePulse.swift in Sources */,
 				F40E5A36241EA44700488BF8 /* Pulsing.swift in Sources */,
 				F40E5A08241EA05300488BF8 /* SceneDelegate.swift in Sources */,
 			);

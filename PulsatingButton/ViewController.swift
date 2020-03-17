@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var youtubeImage: UIImageView!
     @IBOutlet weak var nukeButton: UIImageView!
+    @IBOutlet weak var shieldButton: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,26 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         setupYoutubeImage()
+        setupBottonButton()
+    }
+    
+    func setupBottonButton() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            self.createBurble()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                self.createBurble()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                    self.createBurble()
+                }
+            }
+        }
+    }
+    
+    func createBurble() {
+        let rad = self.shieldButton.frame.size.height
+        let pulse = BurblePulse(radius: rad, position: self.shieldButton.center)
+        self.view.layer.insertSublayer(pulse, below: self.shieldButton.layer)
+        
     }
     
     func setupYoutubeImage() {
@@ -32,7 +53,7 @@ class ViewController: UIViewController {
         pulse.backgroundColor = UIColor.red.cgColor
         
         self.view.layer.insertSublayer(pulse, below: youtubeImage.layer)
-    
+        
     }
     
     func setupNukeButton() {
